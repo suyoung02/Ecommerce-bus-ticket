@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+{%load static%}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="{%static 'history.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+{% include 'home/navbar.html' %}
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="common__routes__container">
+                <p class="title">Lịch sử đặt vé</p>
+                {% for payment in payments %}
+                <div class="row" >
+                    <div class="item__container">
+                        <button class="saigon_dalat">
+                          {%if user.email == payment.email%}
+                            <div class="saigon_dalat texts">
+                                <li>{{ payment.trip.product_name}}</li>
+                                <div class="map_time_price_icon">
+                                    <i class='bx bxs-calendar'></i>
+                                    <li>Ngày mua: {{payment.created_date}}</li>
+                                    <i class='bx bx-chair' ></i>
+                                    <li>Vị trí: {{payment.seat_no}}</li>
+                                    <i class='bx bxs-bus'></i>
+                                    <li>Ngày đi: {{payment.trip.start_date}}</li>
+                                </div>
+                            </div>
+                          {%endif%}
+                        </button>
+                    </div>
+                  {% endfor %}
+                </div>
+            </div>
+        </header>
+        <div class="container">
+
+        </div>
+        <footer class="footer">
+
+        </footer>
+
+    </div>
+    
+</body>
+</html>

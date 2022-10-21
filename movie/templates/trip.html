@@ -1,0 +1,53 @@
+{% block content %}
+{%load static%}
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="{% static 'trip.css' %}" />
+{% include 'home/navbar.html' %}
+{% for List in object_list %}
+<div class="menu">
+   <div class="row" >
+      <div class="item__container">
+         <button class="saigon_dalat">
+            <div class="image__postion__start">
+               {%if List.departure == 'Hồ Chí Minh'%}
+                  <img src="{% static 'img/commonRoutes_1.9fcce6a (1).png'%}">
+               {%elif List.departure == 'Đà Lạt'%}
+                  <img src="{% static 'img/thanh-pho-da-lat.jpg'%}">
+               {%elif List.departure == 'Vũng Tàu'%}
+                  <img src="{% static 'img/Untitled2.png'%}">
+               {%elif List.departure == 'Nha Trang'%}
+                  <img src="{% static 'img/Untitled3.png'%}">
+               {%elif List.departure == 'Cần Thơ'%}
+                  <img src="{% static 'img/can tho.jpg'%}">
+               {%endif%}
+            </div>
+            <div class="saigon_dalat texts">
+                  <p>{{List.departure}} ⇒ {{List.destination}}</p>
+                  <div class="map_time_price_icon">
+                     <!--<i class='bx bx-map'></i>
+                     <p>310km</p>-->
+                     <i class='bx bx-alarm'></i>
+                     <p>{{List.start_date}}</p>
+                     <i class='bx bxs-coupon'></i>
+                     <p>{{List.price}}đ</p>
+                  </div>
+            </div>
+            <div class="image__postion__end">
+               {%if List.destination == 'Hồ Chí Minh'%}
+                  <img src="{% static 'img/commonRoutes_1.9fcce6a (1).png'%}">
+               {%elif List.destination == 'Đà Lạt'%}
+                  <img src="{% static 'img/thanh-pho-da-lat.jpg'%}">
+               {%elif List.destination == 'Vũng Tàu'%}
+                  <img src="{% static 'img/Untitled2.png'%}">
+               {%elif List.destination == 'Nha Trang'%}
+                  <img src="{% static 'img/Untitled3.png'%}">
+               {%elif List.destination == 'Cần Thơ'%}
+                  <img src="{% static 'img/can tho.jpg'%}">
+               {%endif%}
+            </div>
+         </button>
+      </div>
+   </div>
+</div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,108 @@
+.header{
+    height: 140px;
+    display: block;
+}
+
+.common__routes__container
+{
+    width: 100%;
+    font-family: SFProText;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 200px;
+}
+.common__routes__container>p
+{
+    padding: 8px 8px 8px 8px;
+	color: #ffa834;
+	border-width: 3px;
+	font-family: SFProText;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 1.3;
+}
+.row {
+    padding-top: 20px;
+    height: 120px;
+    align-items: center;
+    display: block;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-top: 50px;
+
+}
+.item__container
+{
+    width:100%;
+    height: 120px; 
+    
+}
+.saigon_dalat
+{
+    padding: 0;
+    height: 120px;
+    width: 100%;
+    border-color: #ffffff;
+    border: none;
+    display:flex;
+    cursor: pointer;
+}
+.saigon_dalat
+{
+    height: 100%;    
+}
+.saigon_dalat.texts
+{
+    display: block;
+}
+.saigon_dalat.texts>li
+{
+    margin: 0;
+    margin-top: 10px;
+    color:#ffa834;
+    font-size: 30px;
+}
+.map_time_price_icon
+{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 60px;
+    height: 30px;
+    display: flex;
+}
+.bx.bxs-calendar
+{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 50px;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.map_time_price_icon>li
+{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.bx.bx-chair
+{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 120px;
+    color: black;
+}
+.bx.bxs-bus
+{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 120px;
+    color: black;
+}
