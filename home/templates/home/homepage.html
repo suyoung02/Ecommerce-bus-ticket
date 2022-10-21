@@ -1,0 +1,94 @@
+{%load static%}
+<head>
+    <title>Booking | The best online ticket trip</title>
+    <link href = "{% static 'search copy.css'%}" rel="stylesheet">
+    <link href = "{% static 'main.css'%}" rel="stylesheet">
+</head>
+<body>
+    {% include 'home/navbar.html' %}
+<form action="{% url 'search_results'%}" method="get">
+    <div class="homepage__BannerWraper">
+        <img src="{% static 'Media/leaderboard.png'%}">
+        <div class="homepage__ContentWrapper">
+            <div class="homePage__SearchWrapper">
+                <div class="search-row-flex-area1">
+                    <input name='q' type="text" class="select__Input__start" value placeholder="Tỉnh, thành phố nơi đi">
+                    <i class='bx bxs-map'></i>
+                </div>
+                <div class="search-row-flex-area2">
+                    <input name = 's' type="text" class="select__Input__end" value placeholder="Tỉnh, thành phố nơi đến">
+                    <i class='bx bxs-map'></i>
+                    <div class="icon-desktop-search">
+                        <i class='bx bx-transfer-alt'></i>
+                    </div>
+                </div>
+                <div class="search-row-flex-area3">
+                    <input type="text" class="select__Input__datetime" value placeholder="Nhập ngày đi">
+                    <i class='bx bxs-calendar'></i>
+                </div>
+                <div class="search-row-flex-area4"></div>
+                    <button class="search__Widget" type="submit" name="search_submit">
+                        <span>Tìm Chuyến</span>
+                    </button >
+                    <i class='bx bx-search'></i>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="index">
+        <p class="index__title">Các điểm đến thu hút tại Việt Nam</p>
+        <div class="index__container">
+            <div class="index__container__1">
+                <img  src="{% static 'Media/1.png'%}">
+                <a href="https://www.facebook.com/xephuongtrang">Hồ Chí Minh</a>
+            </div>
+            <div class="index__container__2">
+                <img  src="{% static 'Media/Untitled1.png'%}">
+                <a href="https://www.facebook.com/xephuongtrang">Đà Lạt</a>
+            </div>
+            <div class="index__container__3">
+                <img  src="{% static 'Media/Untitled2.png'%}">
+                <a href="https://www.facebook.com/xephuongtrang">Vũng Tàu</a>
+            </div>
+            <div class="index__container__4">
+                <img  src="{% static 'Media/Untitled3.png'%}">
+                <a href="https://www.facebook.com/xephuongtrang">Nha Trang</a>
+            </div>
+        </div>
+        </div>
+    <div class="box__Contents">
+        <div class="box__Contents__title">
+            <p>LÝ DO ĐỂ BẠN TIN TƯỞNG XE KHÁCH CỦA CHÚNG TÔI</p>
+        </div>
+    <div class="box__Contents__area" >
+        <div class="box__Contents__item1">
+            <i class='bx bx-headphone'></i>
+            <p>Luôn lắng nghe và phục vụ khách hàng 24/24</p>
+        </div>
+        <div class="box__Contents__item2">
+            <i class='bx bxs-bus'></i>
+            <p>Hệ thống xe mới được trang bị tiện ích cao cấp,hiện đại</p>
+        </div>
+        <div class="box__Contents__item3">
+            <i class='bx bx-like'></i>
+            <p>Cách thức đặt chỗ nhanh chóng và tiện lợi, mọi lúc mọi nơi</p>
+        </div>
+        <div class="box__Contents__item4">
+            <i class='bx bx-line-chart'></i>
+            <p>Tần suất chuyến xe dày đặc</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <img src="{% static 'Media/logo.png' %}">
+        <div class="footer-information">
+            <p>Copyright © 2022 Công ty TNHH BOOKING TRIP</p>
+            <p> BOOKINGTRIP.VN là nhà cung cấp dịch vụ đi lại trực tuyến hàng đầu Việt Nam</p>
+            <div class="hotline_address">
+                <p>Hotline: 0935311879</p>
+                <p>Địa chỉ VP: Số 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Tp. Hồ Chí Minh</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>

@@ -1,0 +1,351 @@
+.homepage__BannerWraper>img
+{
+    padding-top:60px;
+    height: 690px;
+    width: 100%;
+}
+.homePage__Title {
+    position: absolute;
+    top:50%;
+    left:55%;
+    transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    line-height: 1;
+    white-space: nowrap;
+}
+.select__Input__start{
+    position: absolute;
+    top: 60.5%;
+    left:15%;
+    height: 60px;
+    width:296px;
+    border-top-left-radius: 0px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 4px 60px;
+}
+.bxs-map
+{
+    position: absolute;
+    font-size: 30px;
+    top:62.2%;
+    left:16.5%;
+}
+.icon-desktop-search>i
+{
+    position: absolute;
+    font-size: 30px;
+    top:62.2%;
+    left:32.7%;
+}
+.select__Input__end{
+    position: absolute;
+    top: 60.5%;
+    left:33.8%;
+    height: 60px;
+    width:310px;
+    border-top-left-radius: 0px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 4px 60px;
+}
+.search-row-flex-area2>i
+{
+    position: absolute;
+    font-size: 30px;
+    top:62.2%;
+    left: 35%;
+}
+.select__Input__datetime
+{
+    position: absolute;
+    top: 60.5%;
+    left:53.5%;
+    height: 60px;
+    width:310px;
+    border-top-left-radius: 0px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 4px 60px;
+}
+.search-row-flex-area3>i
+{
+    position: absolute;
+    font-size: 30px;
+    top:62.2%;
+    left: 54.5%;
+}
+.search__Widget
+{
+    position: absolute;
+    font-size: 30px;
+    top:60.5%;
+    left: 73.3%;
+    height: 60px;
+    width:310px;
+    border-top-left-radius: 0px;
+    font-size: 18px;
+    color: rgb(10, 10, 10);
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    padding: 4px 60px;
+    background: #ffa834;
+    cursor: pointer;
+}
+.bx-search
+{
+    position: absolute;
+    font-size: 30px;
+    top:62.2%;
+    left: 76%;
+}
+.index__title
+{
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+	background: #ffffff;
+	color: #ffa834;
+	border-color: #ffffff;
+	border-width: 3px;
+	border-style: solid;
+	font-family: SFProText;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1.3;
+}
+.index__container
+{
+    display: flex;
+    width: 100%;
+}
+.index__container__1,
+.index__container__2,
+.index__container__3,
+.index__container__4{
+    display:block;
+    text-align:center;
+}
+.index__container__1>img,
+.index__container__2>img,
+.index__container__3>img,
+.index__container__4>img{
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 150px;
+	height: 170px;
+}
+.index__container__1>a
+{
+    padding-top: 170px;
+    padding-left: 25.5px;
+    padding-right: 25.5px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: SFProText;
+    color: black;
+}
+.index__container__2>a
+{
+    padding-top: 170px;
+    padding-left: 43.5px;
+    padding-right: 43.5px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: SFProText;
+    color: black;
+}
+.index__container__3>a
+{
+    padding-top: 170px;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: SFProText;
+    color: black;
+}
+.index__container__4>a
+{
+    padding-top: 170px;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: SFProText;
+    color: black;
+}
+.common__routes__container
+{
+    width: 100%;
+    font-family: SFProText;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.common__routes__container>p
+{
+    padding: 8px 8px 8px 8px;
+	color: #ffa834;
+	border-width: 3px;
+	font-family: SFProText;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 1.3;
+}
+.row {
+    align-items: center;
+    display: block;
+    flex-wrap: wrap;
+    width: 90%; 
+
+}
+.item__container
+{
+    width:100%;
+    height: 200px; 
+    
+}
+.saigon_dalat
+{
+    padding: 0px;
+    width: 100%;
+    border-color: #ffffff;
+    border: none;
+    display:flex;
+
+}
+.saigon_dalat>img{
+    height: 100%;    
+    width: 300px;
+}
+.saigon_dalat.texts
+{
+    color:#ffa834;
+    font-size: 30px;
+
+}
+.box__Contents
+{
+    width: 100%;
+	height: 200px;
+	padding: 8px 8px 8px 8px;
+	background: #92d36e;
+
+}
+.box__Contents__title
+{
+    width: 100%;
+	height: 30%;
+	padding: 4px 8px 4px 8px;
+	text-align: center;
+
+}
+.box__Contents__title>p
+{
+    color: #ffffff;
+	font-family: 'Alfa Slab One';
+	font-weight: 1000;
+	font-size: 30px;
+}
+.box__Contents__area
+{
+    margin-left: 120px;
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.box__Contents__item1,
+.box__Contents__item2,
+.box__Contents__item3,
+.box__Contents__item4
+{
+    width: 20%;
+    text-align: center;
+}
+.box__Contents__item1>i,
+.box__Contents__item2>i,
+.box__Contents__item3>i,
+.box__Contents__item4>i
+{
+   color: #fefb64;
+   width: 24px;
+   height: 24px;
+   font-size: 24px;
+}
+.box__Contents__item1>p,
+.box__Contents__item2>p,
+.box__Contents__item3>p,
+.box__Contents__item4>p
+{
+    margin: 0;
+    margin-left: 40px;
+    width: 70%;
+	height: 100%;
+	color: #ffffff;
+	font-family: "Times New Roman";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.3;
+}
+.footer
+{
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+}
+.footer-information
+{
+    width: 100%;
+    background: #444444;
+    color: #ffffff;
+    padding: 8px 8px 8px 8px;
+    border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	font-family: "Helvetica";
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.3;
+	text-align: center;
+
+}
+.footer-information>p
+{
+    margin: 0;
+}
+.hotline_address
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.hotline_address>p
+{
+    margin:  30px 110px 0px 120px; 
+}

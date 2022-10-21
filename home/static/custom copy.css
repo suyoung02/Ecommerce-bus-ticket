@@ -1,0 +1,20 @@
+.navbar-custom {
+    height: 100px;
+    background-color: white;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+.collapse ul.navbar-nav.ms-auto>li>a {
+    margin: 10;
+    padding: 20;
+    font-size:20px;
+}
+.collapse ul.navbar-nav>li>a {
+    margin: 15;
+    padding: 10;
+    font-size:20px;
+}
